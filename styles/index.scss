@@ -1,0 +1,74 @@
+*{
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #252525;
+    color: #FFFFFF;
+}
+
+header {
+    padding: 50px;
+    display: flex;
+    a{
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+    .botoes{
+        padding-top: 10px;
+        position: absolute;
+        right: 0;
+        button{
+            margin-right: 50px;
+            color: #FFFFFF;
+            background-color: #311BA3;
+            border-radius: 17px;
+            border: none;
+            width: 253px;
+            height: 37px;
+        }
+        .botaoRegister{
+            color: #000000;
+            background-color: #FFC107;
+            border-radius: 17px;
+            border: none;
+            width: 253px;
+            height: 37px;
+        }
+    }
+}
+
+article{
+    margin: 50px 0px 50px 0px;
+}
+
+nav{
+    display: flex;
+    .item{
+        color: #FFFFFF;
+        text-decoration: none;
+        width: 20%;
+        height: 167px;
+        border-radius: 20px;
+        &:hover{
+            border: 1px solid #FFC107;
+        }
+    }
+    img{
+        width: 92px;
+        height: 92px;
+    }
+}
+
+main{
+    h2{
+        padding: 50px;
+        background-image: linear-gradient(to right, #FFC207, #5645AD);
+        -webkit-background-clip: text;
+        color: transparent;
+        width: 30%;
+    }
+    padding: 50px;
+
+}

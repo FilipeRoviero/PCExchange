@@ -3,15 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/index.css">
     <title>PC Exchange</title>
 </head>
 <body>
     <header>
-        <h1>PC Exchange</h1>
-        <button type="button">CRIAR CONTA</button>
-        <button type="button">FAZER LOGIN</button>
+        <a href="index.html"><h1>PC Exchange</h1></a>
+
+        <div class="botoes">
+          <a href="register.html">
+            <button class="botaoRegister" type="button">CRIAR CONTA</button>
+          </a>
+
+          <a href="login.html">
+            <button type="button">FAZER LOGIN</button>
+          </a>
+        </div>
     </header>
 
     <article> <!-- CUPONS / PROMO / ANUNCIOS -->
@@ -38,33 +46,48 @@
           </div>
     </article>
 
-    <nav>
-        <div class="item">
-            <img src="" alt="">
-            <h4>Processador</h4>
-        </div>
-        <div class="item">
-            <img src="" alt="">
-            <h4>Placa-mãe</h4>
-        </div>
-        <div class="item">
-            <img src="" alt="">
-            <h4>Memória RAM</h4>
-        </div>
-        <div class="item">
-            <img src="" alt="">
-            <h4>Placa de vídeo</h4>
-        </div>
-        <div class="item">
-            <img src="" alt="">
-            <h4>Fonte</h4>
-        </div>
+    <nav class="text-center container-fluid">
+        <a class="item" href="#">  
+          <div>
+              <img src="images/processador.png" alt="">
+              <h4>Processador</h4>
+          </div>
+        </a>
+
+        <a class="item" href="#">  
+          <div>
+              <img src="images/placa-mae.png" alt="">
+              <h4>Placa-mãe</h4>
+          </div>
+        </a>
+        
+        <a class="item" href="#">  
+          <div>
+              <img src="images/ram.png" alt="">
+              <h4>Memória RAM</h4>
+          </div>
+        </a>
+        
+        <a class="item" href="#">  
+          <div>
+              <img src="images/graphic-card.png" alt="">
+              <h4>Placa de vídeo</h4>
+          </div>
+        </a>
+
+        <a class="item" href="#">  
+          <div>
+              <img src="images/power-supply.png" alt="">
+              <h4>Fonte</h4>
+          </div>
+        </a>
+
     </nav>
 
     <main>
-        <div class="mais-procurados">
-            <h2>MAIS PROCURADOS</h2>
-        </div>
+      <div class="maisProcurados">
+        <h2>MAIS PROCURADOS</h2>  
+      </div>
 
         <div class="card text-center" style="width: 18rem;">
             <img src="..." class="card-img-top" alt="...">
